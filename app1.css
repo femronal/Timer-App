@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#controls {
+    position: absolute;
+    top: 10rem;
+    left: 7.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    width:          12rem;
+    text-align:     center;
+    border-style:   none;
+    font-size:      2rem;
+    font-weight:    700;
+    outline:        none;
+}
+
+button {
+    margin-top:     1rem;
+    border-style:   none;
+    font-size:      2rem;
+    font-weight:    700;
+    text-align: center;
+    background: white;
+    outline:     none;
+}
+
+button#play {
+    margin-left: 2rem;
+}
+
+button#pause  {
+    font-size:      1.5rem;
+}
+
